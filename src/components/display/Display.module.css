@@ -1,0 +1,14 @@
+.display input {
+    background-color: hsl(224, 36%, 15%);
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    padding: .6em 20px;
+    border: none;
+    border-radius: 7px;
+}
