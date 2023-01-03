@@ -7,11 +7,11 @@ const Header = () => {
     const toggleHandler = () => {
         setTogglePosition((curr) => {
             if(curr === 'lvl1') {
-                'toggleSpan lvl1'
+                return'toggleSpan lvl1'
             } else if(curr === 'lvl2') {
-                'toggleSpan lvl2'
+                return'toggleSpan lvl2'
             } else {
-                'toggleSpan lvl3'
+                return'toggleSpan lvl3'
             }
         })
     }
